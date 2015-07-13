@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BunkMoniter</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="list">
+        <item>option 1</item>
+        <item>option 2</item>
+        <item>option 3</item>
+        <item>option 4</item>
+        <item>option 5</item>
+        <item>option 6</item>
+        <item>option 7</item>
+        <item>option 8</item>
+        <item>option 9</item>
+
+    </string-array>
+</resources>
