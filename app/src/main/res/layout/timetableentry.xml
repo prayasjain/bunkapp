@@ -32,9 +32,10 @@
                 android:layout_weight="1"
                 android:textSize="25dp"
                 android:layout_margin="5dp"
-                android:layout_width="110dp"
-                android:layout_height="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="Time"
+
                 android:gravity="center"
                 android:shadowColor="#311BBF"
                 android:shadowDx="0"
@@ -55,8 +56,8 @@
 
                 android:textSize="25dp"
                 android:layout_margin="5dp"
-                android:layout_width="100dp"
-                android:layout_height="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="Slot 1" />
             <TextView
                 android:layout_weight="1"
@@ -70,8 +71,8 @@
 
                 android:textSize="25dp"
                 android:layout_margin="5dp"
-                android:layout_width="100dp"
-                android:layout_height="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="Slot 2" />
             <TextView
                 android:layout_weight="1"
@@ -84,8 +85,8 @@
 
                 android:textSize="25dp"
                 android:layout_margin="5dp"
-                android:layout_width="100dp"
-                android:layout_height="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="Slot 3" />
             <TextView
                 android:layout_weight="1"
@@ -98,8 +99,8 @@
 
                 android:textSize="25dp"
                 android:layout_margin="5dp"
-                android:layout_width="100dp"
-                android:layout_height="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="Slot 4" />
             <TextView
                 android:layout_weight="1"
@@ -112,8 +113,8 @@
 
                 android:textSize="25dp"
                 android:layout_margin="5dp"
-                android:layout_width="100dp"
-                android:layout_height="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="Slot 5" />
             <TextView
                 android:layout_weight="1"
@@ -126,8 +127,8 @@
 
                 android:textSize="25dp"
                 android:layout_margin="5dp"
-                android:layout_width="100dp"
-                android:layout_height="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="Slot 6" />
             <TextView
                 android:layout_weight="1"
@@ -140,8 +141,8 @@
 
                 android:textSize="25dp"
                 android:layout_margin="5dp"
-                android:layout_width="100dp"
-                android:layout_height="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="Slot 7" />
 
 
@@ -158,8 +159,8 @@
             android:layout_weight="6"
             android:textSize="20dp"
             android:layout_margin="5dp"
-            android:layout_width="110dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Monday"
             android:shadowColor="#311BBF"
             android:shadowDx="0"
@@ -174,8 +175,8 @@
            android:textColor="#222222"                  android:background="@drawable/textitem"
             android:textSize="20dp"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty"
             android:shadowColor="#311BBF"
             android:shadowDx="0"
@@ -196,8 +197,8 @@
             android:gravity="center"
             android:textSize="20dp"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty"
             android:id="@+id/tv12" />
         <TextView
@@ -211,8 +212,8 @@
             android:shadowRadius="6"
             android:gravity="center"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty"
             android:id="@+id/tv13" />
         <TextView
@@ -227,8 +228,8 @@
             android:shadowRadius="6"
             android:gravity="center"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty" />
         <TextView
             android:id="@+id/tv15"
@@ -242,8 +243,8 @@
             android:textSize="20dp"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty" />
         <TextView
             android:id="@+id/tv16"
@@ -257,8 +258,8 @@
             android:gravity="center"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty" />
         <TextView
             android:id="@+id/tv17"
@@ -272,8 +273,8 @@
             android:gravity="center"
             android:layout_margin="5dp"
             android:layout_weight="1"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty" />
 
 
@@ -290,8 +291,8 @@
             android:layout_weight="6"
             android:textSize="20dp"
             android:layout_margin="5dp"
-            android:layout_width="110dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Tuesday"
            android:textColor="#222222"                  android:background="@drawable/textitem"
             android:shadowColor="#311BBF"
@@ -310,8 +311,8 @@
             android:gravity="center"
             android:textSize="20dp"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty"
             android:id="@+id/tv21"/>
         <TextView
@@ -325,8 +326,8 @@
             android:gravity="center"
             android:textSize="20dp"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty"
             android:id="@+id/tv22" />
         <TextView
@@ -340,8 +341,8 @@
             android:shadowRadius="6"
             android:gravity="center"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty"
             android:id="@+id/tv23" />
         <TextView
@@ -356,8 +357,8 @@
             android:shadowRadius="6"
             android:gravity="center"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty"
             android:id="@+id/tv24"/>
         <TextView
@@ -372,8 +373,8 @@
             android:textSize="20dp"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty"
             android:id="@+id/tv25"/>
         <TextView
@@ -388,8 +389,8 @@
 
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty"
             android:id="@+id/tv26"/>
         <TextView
@@ -406,8 +407,8 @@
 
             android:layout_margin="5dp"
             android:layout_weight="1"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty" />
 
 
@@ -424,8 +425,8 @@
             android:layout_weight="6"
             android:textSize="20dp"
             android:layout_margin="5dp"
-            android:layout_width="110dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Wednesday"
             android:shadowColor="#311BBF"
             android:shadowDx="0"
@@ -444,8 +445,8 @@
            android:textColor="#222222"                  android:background="@drawable/textitem"
             android:textSize="20dp"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty"
             android:id="@+id/tv31" />
         <TextView
@@ -459,8 +460,8 @@
            android:textColor="#222222"                  android:background="@drawable/textitem"
             android:textSize="20dp"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty"
             android:id="@+id/tv32" />
         <TextView
@@ -474,8 +475,8 @@
             android:gravity="center"
            android:textColor="#222222"                  android:background="@drawable/textitem"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty"
             android:id="@+id/tv33" />
         <TextView
@@ -490,8 +491,8 @@
             android:gravity="center"
            android:textColor="#222222"                  android:background="@drawable/textitem"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty" />
         <TextView
             android:clickable="true"
@@ -505,8 +506,8 @@
             android:id="@+id/tv35"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty" />
         <TextView
             android:clickable="true"
@@ -520,8 +521,8 @@
            android:textColor="#222222"                  android:background="@drawable/textitem"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty" />
         <TextView
             android:clickable="true"
@@ -535,8 +536,8 @@
            android:textColor="#222222"                  android:background="@drawable/textitem"
             android:layout_margin="5dp"
             android:layout_weight="1"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty" />
 
 
@@ -553,8 +554,8 @@
             android:layout_weight="6"
             android:textSize="20dp"
             android:layout_margin="5dp"
-            android:layout_width="110dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Thursday"
             android:shadowColor="#311BBF"
             android:shadowDx="0"
@@ -573,8 +574,8 @@
            android:textColor="#222222"                  android:background="@drawable/textitem"
             android:textSize="20dp"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty"
             android:id="@+id/tv41" />
         <TextView
@@ -588,8 +589,8 @@
            android:textColor="#222222"                  android:background="@drawable/textitem"
             android:textSize="20dp"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty"
             android:id="@+id/tv42" />
         <TextView
@@ -603,8 +604,8 @@
             android:gravity="center"
            android:textColor="#222222"                  android:background="@drawable/textitem"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty"
             android:id="@+id/tv43" />
         <TextView
@@ -619,8 +620,8 @@
             android:gravity="center"
            android:textColor="#222222"                  android:background="@drawable/textitem"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty" />
         <TextView
             android:clickable="true"
@@ -634,8 +635,8 @@
             android:textSize="20dp"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty" />
         <TextView
             android:clickable="true"
@@ -649,8 +650,8 @@
            android:textColor="#222222"                  android:background="@drawable/textitem"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty" />
         <TextView
             android:clickable="true"
@@ -664,8 +665,8 @@
            android:textColor="#222222"                  android:background="@drawable/textitem"
             android:layout_margin="5dp"
             android:layout_weight="1"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty" />
 
 
@@ -682,8 +683,8 @@
             android:layout_weight="6"
             android:textSize="20dp"
             android:layout_margin="5dp"
-            android:layout_width="110dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Friday"
             android:shadowColor="#311BBF"
             android:shadowDx="0"
@@ -702,8 +703,8 @@
            android:textColor="#222222"                  android:background="@drawable/textitem"
             android:textSize="20dp"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty"
             android:id="@+id/tv51" />
         <TextView
@@ -717,8 +718,8 @@
            android:textColor="#222222"                  android:background="@drawable/textitem"
             android:textSize="20dp"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty"
             android:id="@+id/tv52" />
         <TextView
@@ -732,8 +733,8 @@
             android:gravity="center"
            android:textColor="#222222"                  android:background="@drawable/textitem"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty"
             android:id="@+id/tv53" />
         <TextView
@@ -748,8 +749,8 @@
             android:gravity="center"
            android:textColor="#222222"                  android:background="@drawable/textitem"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty" />
         <TextView
             android:clickable="true"
@@ -763,8 +764,8 @@
             android:textSize="20dp"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty" />
         <TextView
             android:clickable="true"
@@ -778,8 +779,8 @@
            android:textColor="#222222"                  android:background="@drawable/textitem"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty" />
         <TextView
             android:clickable="true"
@@ -793,8 +794,8 @@
            android:textColor="#222222"                  android:background="@drawable/textitem"
             android:layout_margin="5dp"
             android:layout_weight="1"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty" />
 
 
@@ -811,8 +812,8 @@
             android:layout_weight="6"
             android:textSize="20dp"
             android:layout_margin="5dp"
-            android:layout_width="110dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Saturday"
             android:shadowColor="#311BBF"
             android:shadowDx="0"
@@ -831,8 +832,8 @@
            android:textColor="#222222"                  android:background="@drawable/textitem"
             android:textSize="20dp"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty"
             android:id="@+id/tv61" />
         <TextView
@@ -846,8 +847,8 @@
            android:textColor="#222222"                  android:background="@drawable/textitem"
             android:textSize="20dp"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty"
             android:id="@+id/tv62" />
         <TextView
@@ -861,8 +862,8 @@
             android:gravity="center"
            android:textColor="#222222"                  android:background="@drawable/textitem"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty"
             android:id="@+id/tv63" />
         <TextView
@@ -877,8 +878,8 @@
             android:gravity="center"
            android:textColor="#222222"                  android:background="@drawable/textitem"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty" />
         <TextView
             android:clickable="true"
@@ -892,8 +893,8 @@
             android:textSize="20dp"
             android:layout_weight="1"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty" />
         <TextView
             android:clickable="true"
@@ -907,8 +908,8 @@
             android:layout_weight="1"
             android:id="@+id/tv66"
             android:layout_margin="5dp"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty" />
         <TextView
             android:clickable="true"
@@ -923,8 +924,8 @@
             android:id="@+id/tv67"
             android:layout_margin="5dp"
             android:layout_weight="1"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Empty" />
 
 

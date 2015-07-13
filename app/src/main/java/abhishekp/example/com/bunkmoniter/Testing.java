@@ -74,7 +74,7 @@ public class Testing extends Activity implements View.OnClickListener {
     private void loadingdata() {
 
         memory = getSharedPreferences(folder, 0);
-        gotdata = memory.getString("11", "Empty");
+        gotdata = memory.getString("11", "Empty ddvlvkdl;vkdd;kl;,dzlvd");
         text[1][1].setText(gotdata);
         gotdata = memory.getString("21", "Empty");
         text[2][1].setText(gotdata);
