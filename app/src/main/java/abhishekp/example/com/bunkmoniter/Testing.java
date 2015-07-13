@@ -76,7 +76,7 @@ public class Testing extends Activity implements View.OnClickListener {
         memory = getSharedPreferences(folder, 0);
         gotdata = memory.getString("11", "Empty ddvlvkdl;vkdd;kl;,dzlvd");
         text[1][1].setText(gotdata);
-        gotdata = memory.getString("21", "Empty");
+        gotdata = memory.getString("21", "hgkjjknjkh");
         text[2][1].setText(gotdata);
         gotdata = memory.getString("31", "Empty");
         text[3][1].setText(gotdata);
@@ -86,7 +86,7 @@ public class Testing extends Activity implements View.OnClickListener {
         text[5][1].setText(gotdata);
         gotdata = memory.getString("61", "Empty");
         text[6][1].setText(gotdata);
-        gotdata = memory.getString("12", "Empty");
+        gotdata = memory.getString("12", "lkjkjkml k kljlkjkljkljkEmpty");
         text[1][2].setText(gotdata);
         gotdata = memory.getString("22", "Empty");
         text[2][2].setText(gotdata);
@@ -158,11 +158,41 @@ public class Testing extends Activity implements View.OnClickListener {
         text[5][7].setText(gotdata);
         gotdata = memory.getString("67", "Empty");
         text[6][7].setText(gotdata);
-
+     textalign() ;
 
     }
+private void textalign(){
+    int x,m ;
+
+    for(int i=1;i<=7;i++){
+        m=0 ;
+
+        for(int j=0;j<=6;j++){
+            text[j][i].measure(0,0);
+            x=text[j][i].getMeasuredWidth() ;
+            if(x>m)
+                m=x ;
+        }
+        for(int j=0;j<=6;j++){
+            text[j][i].setWidth(m);
+        }
+    }
+
+
+
+}
 
     private void initialize() {
+
+        text[0][1] = (TextView) findViewById(R.id.tv01);
+        text[0][2] = (TextView) findViewById(R.id.tv02);
+        text[0][3] = (TextView) findViewById(R.id.tv03);
+        text[0][4] = (TextView) findViewById(R.id.tv04);
+        text[0][5] = (TextView) findViewById(R.id.tv05);
+        text[0][6] = (TextView) findViewById(R.id.tv06);
+        text[0][7] = (TextView) findViewById(R.id.tv07);
+
+
 
         text[1][1] = (TextView) findViewById(R.id.tv11);
         text[2][1] = (TextView) findViewById(R.id.tv21);
@@ -433,7 +463,7 @@ public class Testing extends Activity implements View.OnClickListener {
 
         }
 
-
+        textalign();
 
     }
 

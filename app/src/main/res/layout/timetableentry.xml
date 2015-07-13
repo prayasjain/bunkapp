@@ -16,25 +16,28 @@
     <HorizontalScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
-<LinearLayout
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical"
-    >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            >
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:weightSum="8"
+            android:orientation="vertical"
+            android:weightSum="7"
             >
+
 
             <TextView
                 android:layout_weight="1"
                 android:textSize="25dp"
                 android:layout_margin="5dp"
-                android:layout_width="wrap_content"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:text="Time"
+
 
                 android:gravity="center"
                 android:shadowColor="#311BBF"
@@ -45,100 +48,846 @@
 
                 android:background="@drawable/textitem"/>
             <TextView
-                android:layout_weight="1"
-                android:gravity="center"
-
-               android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:layout_weight="6"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Monday"
                 android:shadowColor="#311BBF"
                 android:shadowDx="0"
                 android:shadowDy="0"
                 android:shadowRadius="6"
+                android:gravity="center"
 
+                android:textColor="#222222"                  android:background="@drawable/textitem"/>
+
+
+            <TextView
+                android:layout_weight="6"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Tuesday"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"/>
+            <TextView
+                android:layout_weight="6"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Wednesday"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"/>
+            <TextView
+                android:layout_weight="6"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Thursday"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"/>
+
+
+            <TextView
+                android:layout_weight="6"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Friday"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"/>
+            <TextView
+                android:layout_weight="6"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Saturday"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"/>
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="8"
+            >
+
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:id="@+id/tv01"
                 android:textSize="25dp"
                 android:layout_margin="5dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Slot 1" />
             <TextView
+                android:clickable="true"
                 android:layout_weight="1"
-                android:gravity="center"
-
-               android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty"
                 android:shadowColor="#311BBF"
                 android:shadowDx="0"
                 android:shadowDy="0"
                 android:shadowRadius="6"
+                android:gravity="center"
 
+
+                android:id="@+id/tv11" />
+
+
+            <TextView
+                android:clickable="true"
+                android:layout_weight="1"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty"
+                android:id="@+id/tv21"/>
+            <TextView
+                android:clickable="true"
+                android:layout_weight="1"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty"
+                android:id="@+id/tv31" />
+            <TextView
+                android:clickable="true"
+                android:layout_weight="1"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty"
+                android:id="@+id/tv41" />
+            <TextView
+                android:clickable="true"
+                android:layout_weight="1"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty"
+                android:id="@+id/tv51" />
+            <TextView
+                android:clickable="true"
+                android:layout_weight="1"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty"
+                android:id="@+id/tv61" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="7"
+            >
+
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:id="@+id/tv02"
                 android:textSize="25dp"
                 android:layout_margin="5dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Slot 2" />
+
+
+
             <TextView
+                android:clickable="true"
                 android:layout_weight="1"
-                android:gravity="center"
-               android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
                 android:shadowColor="#311BBF"
                 android:shadowDx="0"
                 android:shadowDy="0"
                 android:shadowRadius="6"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty"
+                android:id="@+id/tv12" />
 
+
+            <TextView
+                android:clickable="true"
+                android:layout_weight="1"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty"
+                android:id="@+id/tv22" />
+
+            <TextView
+                android:clickable="true"
+                android:layout_weight="1"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty"
+                android:id="@+id/tv32" />
+
+            <TextView
+                android:clickable="true"
+                android:layout_weight="1"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty"
+                android:id="@+id/tv42" />
+
+
+            <TextView
+                android:clickable="true"
+                android:layout_weight="1"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty"
+                android:id="@+id/tv52" />
+
+            <TextView
+                android:clickable="true"
+                android:layout_weight="1"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty"
+                android:id="@+id/tv62" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="7"
+            >
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:id="@+id/tv03"
                 android:textSize="25dp"
                 android:layout_margin="5dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Slot 3" />
             <TextView
+                android:clickable="true"
+                android:textSize="20dp"
                 android:layout_weight="1"
-                android:gravity="center"
-               android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
                 android:shadowColor="#311BBF"
                 android:shadowDx="0"
                 android:shadowDy="0"
                 android:shadowRadius="6"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty"
+                android:id="@+id/tv13" />
 
+            <TextView
+                android:clickable="true"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty"
+                android:id="@+id/tv23" />
+
+
+            <TextView
+                android:clickable="true"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty"
+                android:id="@+id/tv33" />
+
+            <TextView
+                android:clickable="true"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty"
+                android:id="@+id/tv43" />
+
+
+
+            <TextView
+                android:clickable="true"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty"
+                android:id="@+id/tv53" />
+
+            <TextView
+                android:clickable="true"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty"
+                android:id="@+id/tv63" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="7"
+            >
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:id="@+id/tv04"
                 android:textSize="25dp"
                 android:layout_margin="5dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Slot 4" />
             <TextView
+                android:id="@+id/tv14"
+                android:clickable="true"
+                android:textSize="20dp"
                 android:layout_weight="1"
-                android:gravity="center"
-               android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
                 android:shadowColor="#311BBF"
                 android:shadowDx="0"
                 android:shadowDy="0"
                 android:shadowRadius="6"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty" />
 
+            <TextView
+                android:clickable="true"
+                android:textSize="20dp"
+
+                android:layout_weight="1"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty"
+                android:id="@+id/tv24"/>
+
+
+            <TextView
+                android:clickable="true"
+                android:id="@+id/tv34"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty" />
+
+            <TextView
+                android:clickable="true"
+                android:id="@+id/tv44"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty" />
+
+            <TextView
+                android:clickable="true"
+                android:textSize="20dp"
+                android:id="@+id/tv54"
+                android:layout_weight="1"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty" />
+
+
+
+            <TextView
+                android:clickable="true"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:id="@+id/tv64"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="7"
+            >
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:id="@+id/tv05"
                 android:textSize="25dp"
                 android:layout_margin="5dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Slot 5" />
             <TextView
-                android:layout_weight="1"
-                android:gravity="center"
-               android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:id="@+id/tv15"
+                android:clickable="true"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
                 android:shadowColor="#311BBF"
                 android:shadowDx="0"
                 android:shadowDy="0"
                 android:shadowRadius="6"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty" />
 
+            <TextView
+                android:clickable="true"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty"
+                android:id="@+id/tv25"/>
+
+            <TextView
+                android:clickable="true"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:textSize="20dp"
+                android:id="@+id/tv35"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty" />
+
+
+
+            <TextView
+                android:clickable="true"
+                android:id="@+id/tv45"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty" />
+
+
+
+            <TextView
+                android:clickable="true"
+                android:id="@+id/tv55"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty" />
+
+            <TextView
+                android:clickable="true"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:id="@+id/tv65"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="7"
+            >
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:id="@+id/tv06"
                 android:textSize="25dp"
                 android:layout_margin="5dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Slot 6" />
             <TextView
-                android:layout_weight="1"
-                android:gravity="center"
-               android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:id="@+id/tv16"
+                android:clickable="true"
+                android:textSize="20dp"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
                 android:shadowColor="#311BBF"
                 android:shadowDx="0"
                 android:shadowDy="0"
                 android:shadowRadius="6"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty" />
 
+
+
+            <TextView
+                android:clickable="true"
+                android:textSize="20dp"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty"
+                android:id="@+id/tv26"/>
+
+            <TextView
+                android:clickable="true"
+                android:textSize="20dp"
+                android:id="@+id/tv36"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty" />
+
+
+
+            <TextView
+                android:clickable="true"
+                android:textSize="20dp"
+                android:id="@+id/tv46"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty" />
+
+
+            <TextView
+                android:clickable="true"
+                android:id="@+id/tv56"
+                android:textSize="20dp"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty" />
+
+
+
+
+            <TextView
+                android:clickable="true"
+                android:textSize="20dp"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:layout_weight="1"
+                android:id="@+id/tv66"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty" />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="7"
+            >
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:id="@+id/tv07"
                 android:textSize="25dp"
                 android:layout_margin="5dp"
                 android:layout_width="wrap_content"
@@ -146,791 +895,119 @@
                 android:text="Slot 7" />
 
 
+            <TextView
+                android:id="@+id/tv17"
+                android:clickable="true"
+                android:textSize="20dp"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty" />
+
+
+            <TextView
+                android:clickable="true"
+                android:textSize="20dp"
+                android:id="@+id/tv27"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+
+
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty" />
+
+
+
+
+            <TextView
+                android:clickable="true"
+                android:textSize="20dp"
+                android:id="@+id/tv37"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty" />
+
+
+
+
+            <TextView
+                android:clickable="true"
+                android:textSize="20dp"
+                android:id="@+id/tv47"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty" />
+
+            <TextView
+                android:clickable="true"
+                android:textSize="20dp"
+                android:id="@+id/tv57"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"                  android:background="@drawable/textitem"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty" />
+
+
+
+
+            <TextView
+                android:clickable="true"
+                android:textSize="20dp"
+                android:shadowColor="#311BBF"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="6"
+                android:gravity="center"
+                android:textColor="#222222"
+                android:background="@drawable/textitem"
+                android:id="@+id/tv67"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Empty" />
+
+
         </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:weightSum="8"
-        android:layout_marginTop="20dp"
-       >
+        </LinearLayout>
 
-        <TextView
-            android:layout_weight="6"
-            android:textSize="20dp"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Monday"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-
-           android:textColor="#222222"                  android:background="@drawable/textitem"/>
-        <TextView
-            android:clickable="true"
-            android:layout_weight="1"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:textSize="20dp"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-
-
-            android:id="@+id/tv11" />
-        <TextView
-            android:clickable="true"
-            android:layout_weight="1"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-            android:textSize="20dp"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty"
-            android:id="@+id/tv12" />
-        <TextView
-            android:clickable="true"
-            android:textSize="20dp"
-            android:layout_weight="1"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty"
-            android:id="@+id/tv13" />
-        <TextView
-            android:id="@+id/tv14"
-            android:clickable="true"
-            android:textSize="20dp"
-            android:layout_weight="1"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty" />
-        <TextView
-            android:id="@+id/tv15"
-            android:clickable="true"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-            android:textSize="20dp"
-            android:layout_weight="1"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty" />
-        <TextView
-            android:id="@+id/tv16"
-            android:clickable="true"
-            android:textSize="20dp"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty" />
-        <TextView
-            android:id="@+id/tv17"
-            android:clickable="true"
-            android:textSize="20dp"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-            android:layout_margin="5dp"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty" />
-
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:weightSum="8"
-        android:layout_marginTop="20dp"
-        >
-
-        <TextView
-            android:layout_weight="6"
-            android:textSize="20dp"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tuesday"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"/>
-        <TextView
-            android:clickable="true"
-            android:layout_weight="1"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-            android:textSize="20dp"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty"
-            android:id="@+id/tv21"/>
-        <TextView
-            android:clickable="true"
-            android:layout_weight="1"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-            android:textSize="20dp"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty"
-            android:id="@+id/tv22" />
-        <TextView
-            android:clickable="true"
-            android:textSize="20dp"
-            android:layout_weight="1"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty"
-            android:id="@+id/tv23" />
-        <TextView
-            android:clickable="true"
-            android:textSize="20dp"
-
-            android:layout_weight="1"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty"
-            android:id="@+id/tv24"/>
-        <TextView
-            android:clickable="true"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-
-            android:textSize="20dp"
-            android:layout_weight="1"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty"
-            android:id="@+id/tv25"/>
-        <TextView
-            android:clickable="true"
-            android:textSize="20dp"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-
-            android:layout_weight="1"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty"
-            android:id="@+id/tv26"/>
-        <TextView
-            android:clickable="true"
-            android:textSize="20dp"
-            android:id="@+id/tv27"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-
-
-            android:layout_margin="5dp"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty" />
-
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:weightSum="8"
-        android:layout_marginTop="20dp"
-        >
-
-        <TextView
-            android:layout_weight="6"
-            android:textSize="20dp"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Wednesday"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"/>
-        <TextView
-            android:clickable="true"
-            android:layout_weight="1"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:textSize="20dp"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty"
-            android:id="@+id/tv31" />
-        <TextView
-            android:clickable="true"
-            android:layout_weight="1"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:textSize="20dp"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty"
-            android:id="@+id/tv32" />
-        <TextView
-            android:clickable="true"
-            android:textSize="20dp"
-            android:layout_weight="1"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty"
-            android:id="@+id/tv33" />
-        <TextView
-            android:clickable="true"
-            android:id="@+id/tv34"
-            android:textSize="20dp"
-            android:layout_weight="1"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty" />
-        <TextView
-            android:clickable="true"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:textSize="20dp"
-            android:id="@+id/tv35"
-            android:layout_weight="1"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty" />
-        <TextView
-            android:clickable="true"
-            android:textSize="20dp"
-            android:id="@+id/tv36"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:layout_weight="1"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty" />
-        <TextView
-            android:clickable="true"
-            android:textSize="20dp"
-            android:id="@+id/tv37"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:layout_margin="5dp"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty" />
-
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:weightSum="8"
-        android:layout_marginTop="20dp"
-        >
-
-        <TextView
-            android:layout_weight="6"
-            android:textSize="20dp"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Thursday"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"/>
-        <TextView
-            android:clickable="true"
-            android:layout_weight="1"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:textSize="20dp"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty"
-            android:id="@+id/tv41" />
-        <TextView
-            android:clickable="true"
-            android:layout_weight="1"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:textSize="20dp"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty"
-            android:id="@+id/tv42" />
-        <TextView
-            android:clickable="true"
-            android:textSize="20dp"
-            android:layout_weight="1"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty"
-            android:id="@+id/tv43" />
-        <TextView
-            android:clickable="true"
-            android:id="@+id/tv44"
-            android:textSize="20dp"
-            android:layout_weight="1"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty" />
-        <TextView
-            android:clickable="true"
-            android:id="@+id/tv45"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:textSize="20dp"
-            android:layout_weight="1"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty" />
-        <TextView
-            android:clickable="true"
-            android:textSize="20dp"
-            android:id="@+id/tv46"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:layout_weight="1"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty" />
-        <TextView
-            android:clickable="true"
-            android:textSize="20dp"
-            android:id="@+id/tv47"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:layout_margin="5dp"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty" />
-
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:weightSum="8"
-        android:layout_marginTop="20dp"
-        >
-
-        <TextView
-            android:layout_weight="6"
-            android:textSize="20dp"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Friday"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"/>
-        <TextView
-            android:clickable="true"
-            android:layout_weight="1"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:textSize="20dp"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty"
-            android:id="@+id/tv51" />
-        <TextView
-            android:clickable="true"
-            android:layout_weight="1"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:textSize="20dp"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty"
-            android:id="@+id/tv52" />
-        <TextView
-            android:clickable="true"
-            android:textSize="20dp"
-            android:layout_weight="1"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty"
-            android:id="@+id/tv53" />
-        <TextView
-            android:clickable="true"
-            android:textSize="20dp"
-            android:id="@+id/tv54"
-            android:layout_weight="1"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty" />
-        <TextView
-            android:clickable="true"
-            android:id="@+id/tv55"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:textSize="20dp"
-            android:layout_weight="1"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty" />
-        <TextView
-            android:clickable="true"
-            android:id="@+id/tv56"
-            android:textSize="20dp"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:layout_weight="1"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty" />
-        <TextView
-            android:clickable="true"
-            android:textSize="20dp"
-            android:id="@+id/tv57"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:layout_margin="5dp"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty" />
-
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:weightSum="8"
-        android:layout_marginTop="20dp"
-        >
-
-        <TextView
-            android:layout_weight="6"
-            android:textSize="20dp"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Saturday"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"/>
-        <TextView
-            android:clickable="true"
-            android:layout_weight="1"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:textSize="20dp"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty"
-            android:id="@+id/tv61" />
-        <TextView
-            android:clickable="true"
-            android:layout_weight="1"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:textSize="20dp"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty"
-            android:id="@+id/tv62" />
-        <TextView
-            android:clickable="true"
-            android:textSize="20dp"
-            android:layout_weight="1"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty"
-            android:id="@+id/tv63" />
-        <TextView
-            android:clickable="true"
-            android:textSize="20dp"
-            android:layout_weight="1"
-            android:id="@+id/tv64"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty" />
-        <TextView
-            android:clickable="true"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:id="@+id/tv65"
-            android:textSize="20dp"
-            android:layout_weight="1"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty" />
-        <TextView
-            android:clickable="true"
-            android:textSize="20dp"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"                  android:background="@drawable/textitem"
-            android:layout_weight="1"
-            android:id="@+id/tv66"
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty" />
-        <TextView
-            android:clickable="true"
-            android:textSize="20dp"
-            android:shadowColor="#311BBF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="6"
-            android:gravity="center"
-           android:textColor="#222222"
-            android:background="@drawable/textitem"
-            android:id="@+id/tv67"
-            android:layout_margin="5dp"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Empty" />
-
-
-    </LinearLayout>
-</LinearLayout>
     </HorizontalScrollView>
     </ScrollView>
     <abhishekp.example.com.bunkmoniter.FloatingActionsMenu
