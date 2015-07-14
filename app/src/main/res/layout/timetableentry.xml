@@ -1032,6 +1032,7 @@
             android:layout_height="wrap_content"
                 fab:fab_colorNormal="#ffa726"
             fab:fab_size="mini"
+            fab:fab_icon="@drawable/ic_fab_star"
             fab:fab_title="Add Topic"
             fab:fab_colorPressed="#ffcc80"/>
 
@@ -1039,6 +1040,8 @@
             android:id="@+id/button_ViewTopics"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            fab:fab_icon="@drawable/ic_fab_star"
+
             fab:fab_colorNormal="#ffa726"
             fab:fab_title="View Topics"
             fab:fab_size="mini"
@@ -1047,6 +1050,8 @@
             android:id="@+id/button_editTT"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            fab:fab_icon="@drawable/ic_fab_star"
+
             fab:fab_colorNormal="#ffa726"
             fab:fab_title="Edit TimeTable"
             fab:fab_size="mini"
@@ -1056,6 +1061,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             fab:fab_colorNormal="#ffa726"
+            fab:fab_icon="@drawable/ic_fab_star"
+
             fab:fab_size="mini"
             fab:fab_title="Attendance Stats"
             fab:fab_colorPressed="#ffcc80"/>

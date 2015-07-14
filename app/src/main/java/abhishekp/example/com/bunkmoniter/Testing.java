@@ -29,8 +29,9 @@ public class Testing extends Activity implements View.OnClickListener {
         memory = getSharedPreferences(folder, 0);
 
         loadingdata();
-
+        disableclick();
         /**Floating Action Button **/
+        final FloatingActionsMenu fam = (FloatingActionsMenu) findViewById(R.id.multiple_actions);
         final FloatingActionButton button_addtopic = (FloatingActionButton) findViewById(R.id.button_addtopic);
         button_addtopic.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,6 +45,7 @@ public class Testing extends Activity implements View.OnClickListener {
             @Override
             public void onClick(View view) {
                 button_ViewTopics.setTitle("View Topics clicked");
+
             }
         });
 
@@ -52,7 +54,8 @@ public class Testing extends Activity implements View.OnClickListener {
             @Override
             public void onClick(View view) {
                 button_editTT.setTitle("Edit TT clicked");
-
+                enableclick();
+                fam.collapse();
             }
         });
 
@@ -61,6 +64,7 @@ public class Testing extends Activity implements View.OnClickListener {
             @Override
             public void onClick(View view) {
                 button_Attendance.setTitle("Attendance  clicked");
+
             }
         });
 /*
@@ -71,12 +75,104 @@ public class Testing extends Activity implements View.OnClickListener {
         ft.commit();*/
     }
 
+    private void enableclick(){
+        text[1][1].setClickable(true);
+        text[2][1].setClickable(true);
+        text[3][1].setClickable(true);
+        text[4][1].setClickable(true);
+        text[5][1].setClickable(true);
+        text[6][1].setClickable(true);
+        text[1][2].setClickable(true);
+        text[2][2].setClickable(true);
+        text[3][2].setClickable(true);
+        text[4][2].setClickable(true);
+        text[5][2].setClickable(true);
+        text[6][2].setClickable(true);
+        text[1][3].setClickable(true);
+        text[2][3].setClickable(true);
+        text[3][3].setClickable(true);
+        text[4][3].setClickable(true);
+        text[5][3].setClickable(true);
+        text[6][3].setClickable(true);
+        text[1][4].setClickable(true);
+        text[2][4].setClickable(true);
+        text[3][4].setClickable(true);
+        text[4][4].setClickable(true);
+        text[5][4].setClickable(true);
+        text[6][4].setClickable(true);
+        text[1][5].setClickable(true);
+        text[2][5].setClickable(true);
+        text[3][5].setClickable(true);
+        text[4][5].setClickable(true);
+        text[5][5].setClickable(true);
+        text[6][5].setClickable(true);
+        text[1][6].setClickable(true);
+        text[2][6].setClickable(true);
+        text[3][6].setClickable(true);
+        text[4][6].setClickable(true);
+        text[5][6].setClickable(true);
+        text[6][6].setClickable(true);
+        text[1][7].setClickable(true);
+        text[2][7].setClickable(true);
+        text[3][7].setClickable(true);
+        text[4][7].setClickable(true);
+        text[5][7].setClickable(true);
+        text[6][7].setClickable(true);
+    }
+
+    private void disableclick() {
+        text[1][1].setClickable(false);
+        text[2][1].setClickable(false);
+        text[3][1].setClickable(false);
+        text[4][1].setClickable(false);
+        text[5][1].setClickable(false);
+        text[6][1].setClickable(false);
+        text[1][2].setClickable(false);
+        text[2][2].setClickable(false);
+        text[3][2].setClickable(false);
+        text[4][2].setClickable(false);
+        text[5][2].setClickable(false);
+        text[6][2].setClickable(false);
+        text[1][3].setClickable(false);
+        text[2][3].setClickable(false);
+        text[3][3].setClickable(false);
+        text[4][3].setClickable(false);
+        text[5][3].setClickable(false);
+        text[6][3].setClickable(false);
+        text[1][4].setClickable(false);
+        text[2][4].setClickable(false);
+        text[3][4].setClickable(false);
+        text[4][4].setClickable(false);
+        text[5][4].setClickable(false);
+        text[6][4].setClickable(false);
+        text[1][5].setClickable(false);
+        text[2][5].setClickable(false);
+        text[3][5].setClickable(false);
+        text[4][5].setClickable(false);
+        text[5][5].setClickable(false);
+        text[6][5].setClickable(false);
+        text[1][6].setClickable(false);
+        text[2][6].setClickable(false);
+        text[3][6].setClickable(false);
+        text[4][6].setClickable(false);
+        text[5][6].setClickable(false);
+        text[6][6].setClickable(false);
+        text[1][7].setClickable(false);
+        text[2][7].setClickable(false);
+        text[3][7].setClickable(false);
+        text[4][7].setClickable(false);
+        text[5][7].setClickable(false);
+        text[6][7].setClickable(false);
+
+
+    }
+
     private void loadingdata() {
 
         memory = getSharedPreferences(folder, 0);
-        gotdata = memory.getString("11", "Empty ddvlvkdl;vkdd;kl;,dzlvd");
+        gotdata = memory.getString("11", "Empty");
         text[1][1].setText(gotdata);
-        gotdata = memory.getString("21", "hgkjjknjkh");
+        gotdata = memory.getString("21", "Empty");
         text[2][1].setText(gotdata);
         gotdata = memory.getString("31", "Empty");
         text[3][1].setText(gotdata);
@@ -86,7 +182,7 @@ public class Testing extends Activity implements View.OnClickListener {
         text[5][1].setText(gotdata);
         gotdata = memory.getString("61", "Empty");
         text[6][1].setText(gotdata);
-        gotdata = memory.getString("12", "lkjkjkml k kljlkjkljkljkEmpty");
+        gotdata = memory.getString("12", "Empty");
         text[1][2].setText(gotdata);
         gotdata = memory.getString("22", "Empty");
         text[2][2].setText(gotdata);
