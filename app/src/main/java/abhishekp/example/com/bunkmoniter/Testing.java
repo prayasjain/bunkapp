@@ -93,6 +93,11 @@ public class Testing extends Activity implements View.OnClickListener {
         temp_nav_list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                if(position==0){
+                    Intent j = new Intent(Testing.this,MainActivity.class);
+                    startActivity(j);
+
+                }
                 if(position==1){
                     enableclick();
                 }
