@@ -43,6 +43,12 @@ public class MainActivity extends ListActivity {
         ttlist.add("Add a New Timetable");
         setListAdapter(new ArrayAdapter<String>(MainActivity.this,
                 android.R.layout.simple_list_item_1, ttlist));
+        sendTimetable();
+
+    }
+
+    public ArrayList<String> sendTimetable() {
+        return ttlist;
     }
 
     @Override

@@ -7,8 +7,16 @@ import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import java.util.ArrayList;
 
 public class Testing extends Activity implements View.OnClickListener {
     private TextView text[][] = new TextView[7][8];
@@ -20,6 +28,12 @@ public class Testing extends Activity implements View.OnClickListener {
     String savingstring;
     SharedPreferences.Editor editing;
     String gotdata;
+    private DrawerLayout nav_draw;
+    private ListView temp_nav_list;
+    private String[] lv_string;
+    private ActionBarDrawerToggle abdt;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         // TODO Auto-generated method stub
@@ -67,6 +81,33 @@ public class Testing extends Activity implements View.OnClickListener {
 
             }
         });
+
+
+        /**Navigation Drwaer**/
+
+        nav_draw = (DrawerLayout) findViewById(R.id.drawerlayout);
+        temp_nav_list = (ListView) findViewById(R.id.id_lv_navDrawer);
+        lv_string = getResources().getStringArray(R.array.options);
+        abdt = new ActionBarDrawerToggle(Testing.this,nav_draw,0,0);
+        temp_nav_list.setAdapter(new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,lv_string));
+        temp_nav_list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                if(position==1){
+                    enableclick();
+                }
+                Toast.makeText(getBaseContext(), lv_string[position] + " clicked", Toast.LENGTH_SHORT).show();
+                titleset(lv_string[position]);
+            }
+        });
+        nav_draw.setDrawerListener(abdt);
+        getActionBar().setHomeButtonEnabled(true);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
+        abdt.syncState();
+
+
+
+
 /*
         NavigationDrawer fr = new NavigationDrawer();
         FragmentManager fm = getFragmentManager();
@@ -257,22 +298,22 @@ public class Testing extends Activity implements View.OnClickListener {
      textalign() ;
 
     }
-private void textalign(){
-    int x,m ;
+    private void textalign(){
+        int x,m ;
 
-    for(int i=1;i<=7;i++){
-        m=0 ;
+        for(int i=1;i<=7;i++){
+            m=0 ;
 
-        for(int j=0;j<=6;j++){
-            text[j][i].measure(0,0);
-            x=text[j][i].getMeasuredWidth() ;
-            if(x>m)
-                m=x ;
+            for(int j=0;j<=6;j++){
+                text[j][i].measure(0,0);
+                x=text[j][i].getMeasuredWidth() ;
+                if(x>m)
+                    m=x ;
+            }
+            for(int j=0;j<=6;j++){
+                text[j][i].setWidth(m);
+            }
         }
-        for(int j=0;j<=6;j++){
-            text[j][i].setWidth(m);
-        }
-    }
 
 
 
@@ -956,5 +997,9 @@ private void textalign(){
 
 
         }
+    }
+
+    public void titleset(String title){
+        getActionBar().setTitle(title);
     }
 }

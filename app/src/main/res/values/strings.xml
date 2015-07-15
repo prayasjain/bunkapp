@@ -14,5 +14,13 @@
         <item>option 8</item>
         <item>option 9</item>
 
+
+    </string-array>
+
+    <string-array name="options">
+        <item>Add a new TimeTable</item>
+        <item>Edit TimeTable</item>
+        <item>Add Topic</item>
+        <item>View Attendance Stats</item>
     </string-array>
 </resources>

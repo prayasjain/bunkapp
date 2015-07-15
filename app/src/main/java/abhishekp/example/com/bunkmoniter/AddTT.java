@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 
-public class AddTT extends Activity implements View.OnClickListener {
+    public class AddTT extends Activity implements View.OnClickListener {
     Button b ;
     EditText et ;
     String s ;
